@@ -9,7 +9,7 @@ export const Header = () => (
         <ul>
           {mocksHeader.map((item, i) => (
             <li key={`item-header-${i}`}>
-              <a href={`#${item.toLocaleLowerCase()}`}>{item}</a>
+              <a href={item.id}>{item.text}</a>
             </li>
           ))}
         </ul>
