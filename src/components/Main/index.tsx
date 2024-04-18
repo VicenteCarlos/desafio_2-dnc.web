@@ -6,7 +6,7 @@ import { useState } from "react";
 export const Main = () => {
   const [dataTemperature, setDataTemperature] = useState<any>(null);
   const [dataAdress, setDataAdress] = useState<any>(null);
-  console.log(dataTemperature, "temperature")
+  console.log(dataTemperature, "temperature");
 
   return (
     <StyledMain>
@@ -58,6 +58,17 @@ export const Main = () => {
               </>
             )}
           </div>
+        </div>
+      </section>
+      <section id="prevision-time">
+        <div className="title-time">
+          <h2>Previsão do tempo na região:</h2>
+          <img src="../../../public/assets/svg/sky_2.svg" alt="pointer" />
+        </div>
+        <div className="info-time">
+          {dataTemperature !== null
+            ? `Previsão de tempo de acordo com a região: ${dataTemperature.daily.temperature_2m_max_CMCC_CM2_VHR4[0]}° C`
+            : ""}
         </div>
       </section>
     </StyledMain>
