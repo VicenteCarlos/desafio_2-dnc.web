@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   background-color: #0c70f2;
   color: white;
-  height: 9vh;
+  height: 6.438rem;
 
   #container {
     display: flex;
@@ -13,6 +13,7 @@ export const StyledHeader = styled.header`
 
     h1 {
         margin-left: 2rem;
+        font-size: 3.125rem;
     }
 
     nav {
@@ -26,6 +27,7 @@ export const StyledHeader = styled.header`
 
         li {
             margin: 0 1rem;
+            font-size: 1.5rem;
 
           a {
             font-weight: 800;

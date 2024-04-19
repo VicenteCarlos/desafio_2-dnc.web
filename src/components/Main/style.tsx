@@ -5,16 +5,17 @@ export const StyledMain = styled.main`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 7.688rem;
 
     p {
       font-weight: 800;
-      font-size: 2.1rem;
-      width: 40%;
+      font-size: 3.125rem;
+      width: 55%;
     }
 
     img {
-      width: 13.5rem;
+      width: 15.938rem;
+      height: 12.313rem;
     }
   }
 
@@ -29,7 +30,7 @@ export const StyledMain = styled.main`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 26rem;
+    margin-top: 28.938rem;
 
     .title-adress {
       display: flex;
@@ -37,7 +38,7 @@ export const StyledMain = styled.main`
       align-items: center;
 
       h2 {
-        font-size: 2.3rem;
+        font-size: 3.125rem;
       }
 
       img {
@@ -50,7 +51,7 @@ export const StyledMain = styled.main`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 64rem;
       margin-top: 1rem;
       text-align: center;
 
@@ -94,14 +95,14 @@ export const StyledMain = styled.main`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 13rem;
+    margin-top: 13.313rem;
 
     .title-time {
       display: flex;
       align-items: center;
 
       h2 {
-        font-size: 2.3rem;
+        font-size: 3.125rem;
       }
 
       img {
@@ -110,6 +111,9 @@ export const StyledMain = styled.main`
     }
 
     .info-time {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: white;
       border: 1px solid #0C70F2;
       border-radius: 1.875rem;
@@ -117,7 +121,8 @@ export const StyledMain = styled.main`
       text-align: center;
       margin-top: 2rem;
       padding: 1rem;
-      width: 60%;
+      width: 64rem;
+      height: 4.5rem;
     }
   }
 `;

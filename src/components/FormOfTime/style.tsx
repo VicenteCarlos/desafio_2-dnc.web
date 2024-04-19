@@ -6,9 +6,9 @@ export const StyledFormOfTime = styled.form`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 47vw;
-  margin-top: 13.5rem;
-  height: 102vh;
+  width: 53.688rem;
+  height: 58.125rem;
+  margin-top: 16.313rem;
   border-radius: 1.875rem;
 
   fieldset {
@@ -26,7 +26,7 @@ export const StyledFormOfTime = styled.form`
       border-radius: 0.625rem;
       padding: 0.85rem;
       margin: 0.8rem 0;
-      width: 97%;
+      width: 39.375rem;
     }
 
     input::placeholder {
@@ -35,7 +35,7 @@ export const StyledFormOfTime = styled.form`
   }
 
   .f-1 {
-    margin-top: 20%;
+    margin-top: 9rem;
   }
 
   .f-4 {
@@ -48,7 +48,7 @@ export const StyledFormOfTime = styled.form`
 
         input {
             margin-right: 0.8rem;
-            width: 50%;
+            width: 18.5rem;
         }
     }
   }
@@ -59,7 +59,7 @@ export const StyledFormOfTime = styled.form`
     font-size: 1.2rem;
     font-weight: 600;
     color: white;
-    width: 65%;
+    width: 39.375rem;
     height: 6%;
     margin-top: 4rem;
     cursor: pointer;
